@@ -71,3 +71,12 @@ then
 else
    echo "the directory is notfound"
 fi
+# checking  file empty are not
+echo -e "enter the file name : \c"
+read file_name
+if [ -s $file_name ]
+then
+   echo "the file is notempt"
+else
+   echo "the file is empty"
+fi
